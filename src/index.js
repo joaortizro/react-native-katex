@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { WebView, StyleSheet } from 'react-native';
-
+import { StyleSheet } from 'react-native';
+import { WebView } from 'react-native-webview';
 import katexStyle from './katex-style';
 import katexScript from './katex-script';
 import { bool, func, object, string } from 'prop-types';
